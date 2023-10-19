@@ -4,7 +4,7 @@ import { BiSearch, BiSolidBell } from 'react-icons/bi';
 import { UserButton } from '@clerk/nextjs';
 const Navbar = () => {
   const path = usePathname().split('/')[1];
-  const pathname = path[0].toUpperCase() + path.slice(1);
+  const pathname = path[0]?.toUpperCase() + path.slice(1);
   
   return (
     <nav className="flex items-center min-w-full  justify-between px-6 py-3">
