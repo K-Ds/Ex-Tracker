@@ -84,8 +84,8 @@ export default async function Home() {
               </tbody>
             </table>
             <div className="flex flex-col gap-2 items-end mt-4 text-sm">
-              {Object.keys(totals).map((item) => (
-                <div className="flex justify-between gap-4 w-1/3">
+              {Object.keys(totals).map((item, idx) => (
+                <div key={idx} className="flex justify-between gap-4 w-1/3">
                   <p>{item}</p>
                   <p className="font-semibold">
                     {totals[item as keyof typeof totals]}

@@ -63,8 +63,13 @@ export default async function Home() {
       <div className="flex flex-col gap-6">
         {/* Cards */}
         <div className="flex gap-3">
-          {cards.map((card) => (
-            <Card title={card.title} amount={card.amount} Icon={card.Icon} />
+          {cards.map((card, idx) => (
+            <Card
+              key={idx}
+              title={card.title}
+              amount={card.amount}
+              Icon={card.Icon}
+            />
           ))}
         </div>
         {/* Graph */}
