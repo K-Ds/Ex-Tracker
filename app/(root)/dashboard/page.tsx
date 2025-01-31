@@ -160,7 +160,7 @@ export default async function Home() {
           </header>
           <div className="relative">
             <div className="flex flex-col font-semibold gap-3 p-3 bg-black text-white rounded-xl">
-              <p>Maglo</p>
+              <p>Equity</p>
               <FcSimCardChip />
               <div className="flex justify-between">
                 <div>
@@ -173,7 +173,7 @@ export default async function Home() {
               </div>
             </div>
             <div className="flex flex-col font-semibold gap-3 p-3 bg-gray-300 bg-opacity-20 backdrop-blur-lg   rounded-xl absolute inset-x-0 top-28 drop-shadow-lg">
-              <p>Maglo</p>
+              <p>Standard Charted</p>
               <FcSimCardChip />
               <div className="flex justify-between">
                 <div>
