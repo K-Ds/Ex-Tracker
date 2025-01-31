@@ -13,7 +13,7 @@ export default function Page() {
           style={{ objectFit: 'cover' }}
         />
       </div>
-      <div className="flex flex-1 h-screen overflow-y-scroll py-3 justify-center items-center">
+      <div className="flex flex-1 h-screen overflow-y-scroll py-3 justify-center items-center bg-gray-100">
         <SignIn />
       </div>
     </main>
