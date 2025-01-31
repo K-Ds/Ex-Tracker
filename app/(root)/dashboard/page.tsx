@@ -60,7 +60,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen px-6 gap-5">
       {/* Left side */}
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 flex-1">
         {/* Cards */}
         <div className="flex gap-3">
           {cards.map((card, idx) => (
@@ -145,7 +145,7 @@ export default async function Home() {
         </div>
       </div>
       {/* Right Side */}
-      <div className="flex-1">
+      <div className="w-1/3">
         {/* Wallet */}
         <div className="h-1/2">
           <header className="flex justify-between mb-4">
