@@ -152,8 +152,8 @@ export default async function Home() {
           </form>
 
           <div className="flex justify-between mt-3">
-            <SecondaryButton text="Preview" Icon={AiOutlineEye} />
-            <SecondaryButton text="Download" Icon={AiOutlineCloudDownload} />
+            <SecondaryButton text="Preview" Icon={AiOutlineEye} onClick={() => {}} />
+            <SecondaryButton text="Download" Icon={AiOutlineCloudDownload} onClick={() => {}}</SecondaryButton>} />
           </div>
         </div>
       </div>
